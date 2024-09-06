@@ -1,0 +1,25 @@
+body {
+  width: 600px;
+  margin: 0 auto;
+}
+
+h1,
+h2,
+h3,
+p {
+  margin: 0;
+}
+
+.songs-container {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.song {
+  display: flex;
+  align-items: center;
+  padding: 8px 24px;
+  border: 1px solid black;
+  border-radius: 5px;
+}
